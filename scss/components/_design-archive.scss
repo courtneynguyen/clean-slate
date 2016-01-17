@@ -1,0 +1,35 @@
+.designs {
+	> div {
+		margin: 0 auto;
+	}
+	header{
+		padding-bottom: 3rem;
+	}
+	article {
+		display: block;
+		text-align: left;
+		height: 30.0rem;
+		margin: 0 0 7rem;
+		h5{
+			font-size: 2.0rem;
+			> a {
+				display: inline;
+			}
+			.post-edit-link{
+				float: right;
+			}
+			+ a {
+				width: 100%;
+				height: 100%;
+				display: block;
+				background-size: 157%;
+			}
+		}
+		img {
+			max-width: 100% !important;
+		}
+		// &:nth-child(1n+2){
+		// 	margin-left:0;
+		// }
+	}
+}

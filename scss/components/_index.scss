@@ -1,0 +1,49 @@
+@keyframes blink {
+   from {
+      opacity: 0
+   }
+   to {
+      opacity: 1;
+   }
+}
+
+#content {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.hero {
+   background: url("../img/circuit-hero.jpg") center center;
+   background-size: cover;
+   width: 100%;
+   height: 33.4rem;
+   .hero--msg {
+      width: 100%;
+      top: 26%;
+      font-size: 5rem;
+      margin: 0 auto;
+      background-color: $yellow_hero;
+      text-align: center;
+      padding: 3rem 2rem;
+      box-shadow: 1px 3px 6px 0px rgba(0,0,0,0.5);
+      color: $base_font_color;
+      position: relative;
+      span {
+         opacity: 0;
+         font-weight: 900;
+         animation: blink 0.8s infinite ease-in;
+      }
+   }
+}
+@include media-breakpoint-up(sm) {
+   .hero {
+      height: 50.4rem;
+      .hero--msg {
+         width: 60.0rem;
+         top: 32%;
+      }
+   }
+}
+@include media-breakpoint-up(md) {
+
+}
