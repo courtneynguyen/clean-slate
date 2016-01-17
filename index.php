@@ -6,11 +6,10 @@
  */
 
 get_header(); // This fxn gets the header.php file and renders it ?>
-<div class="row">
-	<div class="hero" role="banner">
-		<div class="hero--msg"><span>>  </span>Hello, World!</div>
-	</div>
+<div class="hero" role="banner">
+	<div class="hero--msg"><span>>  </span>Hello, World!2</div>
 </div>
+<div class="container">
 	<div class="row">
 		<div id="content" role="main" class="col-md-offset-1 col-md-10 col-lg-8 col-lg-offset-2">
 			<h1>Technology Enthusiast</h1>
@@ -20,4 +19,5 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			<p>To incite wonderlust and help others discover why, and what it would mean to have an accessible, accurate web. </p>
 		</div><!-- #content .site-content -->
 	</div><!-- #primary .content-area -->
+</div>
 <?php get_footer(); // This fxn gets the footer.php file and renders it ?>

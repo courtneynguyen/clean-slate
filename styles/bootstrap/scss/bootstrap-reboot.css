@@ -120,7 +120,8 @@ select {
   text-transform: none; }
 
 button,
-html input[type="button"], input[type="reset"],
+html input[type="button"],
+input[type="reset"],
 input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
@@ -254,8 +255,7 @@ blockquote {
 a {
   color: #0275d8;
   text-decoration: none; }
-  a:focus,
-  a:hover {
+  a:focus, a:hover {
     color: #014c8c;
     text-decoration: underline; }
   a:focus {

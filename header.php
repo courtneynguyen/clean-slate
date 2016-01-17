@@ -51,4 +51,3 @@
 <nav id="exCollapsingNavbar" role="navigation" class="collapse hidden-lg-up mobile-menu">
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
 </nav>
-<div class="container">

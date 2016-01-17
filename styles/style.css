@@ -163,7 +163,7 @@ a {
         width: 100%; }
   .NavigationBar nav li a {
     font-size: 1.7rem;
-    padding: 2rem 15px; }
+    padding: 2.0rem 15px; }
   .site-title {
     padding: 0; }
   .mobile-menu-button {
@@ -246,3 +246,7 @@ footer {
       background-size: 157%; }
   .designs article img {
     max-width: 100% !important; }
+
+.design-item img {
+  max-width: 100%;
+  height: auto; }

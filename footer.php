@@ -1,5 +1,3 @@
-
-</div><!-- / end page container, begun in the header -->
 </div> <!-- /wrapper -->
 <footer class="site-footer" role="contentinfo">
 	<div class="site-info container">
