@@ -1,49 +1,51 @@
-@import '../../lib/bootstrap/scss/variables.scss';
-@import '../../lib/bootstrap/scss/mixins/breakpoints.scss';
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import '../../lib/bootstrap/scss/variables';
+@import '../../lib/bootstrap/scss/mixins/breakpoints';
+@import url(https://fonts.googleapis.com/css?family=Caveat+Brush);
 
 html {
-   font-size:52.5%;
+	font-size: 52.5%;
 }
 
 body {
-   font-size: 2.0rem;
-   color: $base_font_color;
-}
+	color: $base_font_color;
+	font-size: 2rem;
+	}
 
 h1 {
-   font-size: 4.5rem;
+	font-size: 4.5rem;
 }
 
 .hidden {
-   display: none;
+	display: none;
 }
 
 .wrapper {
-   min-height: 100%;
-   margin-bottom: -2.1rem;
+	margin-bottom: -2.1rem;
+	min-height: 100%;
 }
 
 a {
-   text-decoration: none;
-   &:hover {
-      text-decoration: none;
-   }
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
 }
 
 .center-ltr {
-	text-align:center;
-	@include media-breakpoint-up(sm){
+	text-align: center;
+	@include media-breakpoint-up(sm) {
 		text-align: left;
 	}
 }
 
 @include media-breakpoint-up(md) {
-   html {
-      font-size:55.5%;
-   }
+	html {
+		font-size: 55.5%;
+	}
 }
 @include media-breakpoint-up(lg) {
-   html {
-      font-size:62.5%;
-   }
+	html {
+		font-size: 62.5%;
+	}
 }

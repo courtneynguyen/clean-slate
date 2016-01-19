@@ -1,6 +1,8 @@
 /* colors */
 /* font family */
 /* grid */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Caveat+Brush);
 * {
   padding: 0;
   margin: 0;
@@ -19,8 +21,8 @@ html {
   font-size: 52.5%; }
 
 body {
-  font-size: 2.0rem;
-  color: #5C5E5F; }
+  color: #5C5E5F;
+  font-size: 2rem; }
 
 h1 {
   font-size: 4.5rem; }
@@ -29,8 +31,8 @@ h1 {
   display: none; }
 
 .wrapper {
-  min-height: 100%;
-  margin-bottom: -2.1rem; }
+  margin-bottom: -2.1rem;
+  min-height: 100%; }
 
 a {
   text-decoration: none; }
@@ -72,7 +74,7 @@ a {
             padding: 0 30px;
             color: #A2A2A2; }
             .NavigationBar nav ul > li > ul > li > a:hover {
-              background-color: #EFEFEF; }
+              background-color: #efe; }
       .NavigationBar nav ul > li:hover {
         background-color: #d81b60; }
     .NavigationBar nav ul li.show {
@@ -123,14 +125,14 @@ a {
             padding: 0 30px;
             color: #A2A2A2; }
       .mobile-menu ul > li:hover {
-        background-color: #EFEFEF; }
+        background-color: #efe; }
 
 .site-title {
   padding: 0 0 1rem; }
   .site-title a {
     font-size: 4rem;
     font-weight: 700;
-    color: #FFF;
+    color: #fff;
     letter-spacing: -3px; }
     .site-title a:hover, .site-title a:active, .site-title a:focus {
       text-decoration: none; }

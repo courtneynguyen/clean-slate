@@ -15,7 +15,6 @@ if ( function_exists( 'add_theme_support' ) ) {
 		'has_archive' => true,
 		'show_in_nav_menus' => true,
 		'supports' => array('thumbnail', 'title', 'editor')
-		//	'has_thumbnail' =>
 		)
 	);
 ?>
