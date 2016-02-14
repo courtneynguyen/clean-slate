@@ -160,7 +160,8 @@ p{
 				<div class="row">
 					<div class="float-lt">
 						<h3>Eat kibbles:</h3>
-						<img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/kibble_O_lg.png"/><img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/kibble_X_lg.png"/>
+						<img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/kibble_O_lg.png"/>
+						<img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/kibble_X_lg.png"/>
 					</div>
 					<div class="float-rt">
 						Press P to pause
@@ -182,12 +183,13 @@ p{
 	</div>
 </div>
 
-<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/jquery.min.js" type="text/javascript"></script>
-<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/jquery.hotkeys.js" type="text/javascript"></script>
-<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/key_status.js" type="text/javascript"></script>
-<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/util.js" type="text/javascript"></script>
-<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/sprite.js" type="text/javascript"></script>
+<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/lib/jquery.min.js" type="text/javascript"></script>
+<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/lib/jquery.hotkeys.js" type="text/javascript"></script>
+<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/lib/key_status.js" type="text/javascript"></script>
+<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/lib/util.js" type="text/javascript"></script>
+<script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/lib/sprite.js" type="text/javascript"></script>
 <!-- <script language="javascript" src="js/sound.js" ></script> -->
+<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/powerbar.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/main.js"></script>
 <script type="text/javascript">
 $(window).ready(function(){
