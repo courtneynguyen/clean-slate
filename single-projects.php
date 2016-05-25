@@ -63,7 +63,7 @@ Template Name Posts: Kitty Jump Template
 <script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/lib/jquery.min.js" type="text/javascript"></script>
 <script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/keyCodes.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/keyHandler.js"></script>
-<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/kitty_jump/public/js/powerbar.js"></script>
+<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/powerbar.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/main.js"></script>
 <script type="text/javascript">
 $(window).ready(function(){
