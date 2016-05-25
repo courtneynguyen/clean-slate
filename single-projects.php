@@ -5,7 +5,7 @@ Template Name Posts: Kitty Jump Template
 ?>
 
 <?php get_header(); ?>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles.css"/>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/styles.css"/>
 
 <div class="container">
 	<h1><?php the_title(); ?></h1>
@@ -26,19 +26,19 @@ Template Name Posts: Kitty Jump Template
         <div class="row">
           <div class="float-lt">
             <h3>This is you:</h3>
-            <img src="./images/kitty_cat.png" />
-            <img src="./images/life.png" />x9
+            <img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/kitty_cat.png" />
+            <img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/life.png" />x9
           </div>
           <div class="float-rt">
             <h3>Do not eat candy:</h3>
-            <img class="wd-100" src="./images/candy.png"/>
+            <img class="wd-100" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/candy.png"/>
           </div>
         </div>
         <div class="row">
           <div class="float-lt">
             <h3>Eat kibbles:</h3>
-            <img src="./images/kibble_O_lg.png"/>
-            <img src="./images/kibble_X_lg.png"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/kibble_O_lg.png"/>
+            <img src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/images/kibble_X_lg.png"/>
           </div>
           <div class="float-rt">
             Press P to pause
@@ -61,14 +61,14 @@ Template Name Posts: Kitty Jump Template
 </div>
 
 <script language="javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/lib/jquery.min.js" type="text/javascript"></script>
-<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/keyCodes.js"></script>
-<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/keyHandler.js"></script>
-<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/powerbar.js"></script>
+<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/keyCodes.js"></script>
+<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/keyHandler.js"></script>
+<script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/kitty_jump/public/js/powerbar.js"></script>
 <script language="javascript" type="text/javascript" src="<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/js/main.js"></script>
 <script type="text/javascript">
 $(window).ready(function(){
 	kitty_jump.playGame({
-		'ROOT': '<?php echo get_template_directory_uri(); ?>'
+		'ROOT': '<?php echo get_template_directory_uri(); ?>/js/kitty_jump/public/'
 	});
 });
 </script>
