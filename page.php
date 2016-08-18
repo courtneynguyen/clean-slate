@@ -1,13 +1,7 @@
-<?php
-/**
- * The template for displaying any single page.
- *
- */
-
-get_header(); // This fxn gets the header.php file and renders it ?>
-	<div id="primary" class="container-fluid">
-		<div id="content" role="main" class="row">
-			<div class="col-md-offset-2 col-lg-7 col-lg-offset-3 col-xl-6 col-xl-offset-3">
+<?php get_header();?>
+	<div class="container">
+		<div role="main" class="row">
+			<div class="content">
 			<?php if ( have_posts() ) : ?>
 
 				<?php while ( have_posts() ) : the_post();
@@ -15,7 +9,6 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 				?>
 
 					<article class="post">
-
 						<h1 class="title"><?php the_title(); // Display the title of the page ?></h1>
 
 						<div class="the-content">

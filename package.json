@@ -4,7 +4,8 @@
   "description": "Using naked wordpress theme to get markup and basic php down. ",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
   },
   "keywords": [
     "wordpress"
@@ -12,12 +13,11 @@
   "author": "courtneythuy",
   "license": "ISC",
   "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cli": "^1.2.2",
     "gulp-insert": "^0.5.0",
     "gulp-sass": "^2.0.4",
     "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6"
-  },
-  "dependencies": {
-    "gulp-sass": "^2.1.1"
   }
 }

@@ -252,3 +252,8 @@ footer {
 .design-item img {
   max-width: 100%;
   height: auto; }
+
+.the-content {
+  background: #f1f1f1;
+  padding: 10px 15px;
+  margin: 10px 0 20px; }

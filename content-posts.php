@@ -3,9 +3,9 @@
 * The template used for displaying posts
 */
 ?>
-<div class="container-fluid">
+<div class="container">
    <div class="row">
-      <div class="col-md-offset-2 col-lg-7 col-lg-offset-2">
+      <div class="content">
          <article <?php post_class(); ?> id="post-<?php the_ID(); ?>">
             <div class="post-info">
                <span class="month"><?php the_time('M') ?></span>
