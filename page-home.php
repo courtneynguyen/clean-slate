@@ -1,13 +1,5 @@
-<?php
-/**
- * 	Template Name: Sidebar/Home Page
- *
- *	This page template has a sidebar built into it,
- * 	and can be used as a home page, in which case the title will not show up.
- *
-*/
-get_header(); // This fxn gets the header.php file and renders it ?>
-	<div id="primary" class="container">
+<?php get_header(); ?>
+	<div  class="container">
 		<div id="content" role="main" class="">
 			<?php if ( have_posts() ) :
 			// Do we have any posts/pages in the databse that match our query?
