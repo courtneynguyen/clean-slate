@@ -39,15 +39,15 @@
 					<span class="hamburger"></span>
 				</button>
 				<nav role="navigation" class="hidden-md-down">
-					<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
-				</nav><!-- .site-navigation .main-navigation -->
+					<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) );  ?>
+				</nav>
 			</div>
 				<!-- <h4 class="site-description hidden-md-down">
-				<?php bloginfo( 'description' ); // Display the blog description, found in General Settings ?>
+				<?php bloginfo( 'description' ); ?>
 			</h4>-->
-		</div><!-- /brand -->
-	</div> <!-- /row -->
+		</div>
+	</div>
 </div>
 <nav id="exCollapsingNavbar" role="navigation" class="collapse hidden-lg-up mobile-menu">
-	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); // Display the user-defined menu in Appearance > Menus ?>
+	<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 </nav>

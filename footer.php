@@ -2,9 +2,10 @@
 <footer class="site-footer" role="contentinfo">
 	<div class="site-info container">
 
-		<p>Repurposed <a href="http://bckmn.com/naked-wordpress" rel="theme">Naked Theme</a>
-			by Courtney Nguyen
-		</p>
+		<nav role="navigation">
+			<?php wp_nav_menu( array( 'theme_location' => 'footer-menu' ) ); ?>
+		</nav>
+		<p>Courtney Nguyen 2016</p>
 
 	</div>
 </footer>

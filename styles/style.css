@@ -134,7 +134,7 @@ input[type="radio"] {
     font-size: 62.5%; } }
 
 .NavigationBar {
-  background: #d81b60;
+  background: #e24b82;
   color: #ede;
   position: relative;
   border-bottom: 0.3rem solid #c51162; }
@@ -146,22 +146,22 @@ input[type="radio"] {
         display: none;
         width: 100%;
         min-width: 184px;
-        background-color: #F5F5F5;
-        box-shadow: 2px 2px 7px -3px rgba(0, 0, 0, 0.45); }
+        background-color: white;
+        box-shadow: 7px 2px 7px 5px rgba(0, 0, 0, 0.45); }
         .NavigationBar nav ul > li > ul > li {
           display: block; }
           .NavigationBar nav ul > li > ul > li > a {
-            padding: 0 30px;
-            color: #A2A2A2; }
+            color: #A2A2A2;
+            background: white; }
             .NavigationBar nav ul > li > ul > li > a:hover {
               background-color: #efe; }
       .NavigationBar nav ul > li:hover {
-        background-color: #d81b60; }
+        background-color: #e24b82; }
     .NavigationBar nav ul li.show {
-      background-color: #d81b60;
+      background-color: #e24b82;
       position: relative; }
       .NavigationBar nav ul li.show > a:hover {
-        background-color: #d81b60; }
+        background-color: #e24b82; }
       .NavigationBar nav ul li.show > ul {
         position: absolute;
         display: block;
@@ -249,7 +249,20 @@ input[type="radio"] {
   .site-title {
     padding: 0; }
   .mobile-menu-button {
-    top: .3rem; } }
+    top: .3rem; }
+  ul.sub-menu:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    top: -13px;
+    left: 5px;
+    background: white;
+    transform: rotateZ(45deg);
+    box-shadow: 3px -8px 7px 1px rgba(0, 0, 0, 0.45); }
+  li > .sub-menu li a {
+    padding: 7px 15px; } }
 
 @media (min-width: 1200px) {
   .hidden-md-up {
@@ -293,7 +306,7 @@ input[type="radio"] {
       top: 32%; } }
 
 footer {
-  background-color: #E91E63;
+  background-color: #e24b82;
   color: #F48FB1;
   text-align: center;
   width: 100%;

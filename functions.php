@@ -63,3 +63,12 @@ function my_cpt_post_types( $post_types ) {
 	return $post_types;
 }
 add_filter( 'cpt_post_types', 'my_cpt_post_types' );
+
+/**
+ * registers menu
+ */
+function register_my_menu() {
+  register_nav_menu('header-menu',__( 'Header Menu' ));
+	register_nav_menu('footer-menu',__( 'Footer Menu' ));
+}
+add_action( 'init', 'register_my_menu' );

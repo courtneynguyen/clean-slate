@@ -12,13 +12,13 @@
                display: none;
                width:100%;
                min-width: 184px;
-               background-color: $menu_bg;
-               box-shadow: 2px 2px 7px -3px rgba(0, 0, 0, 0.45); // need mixin
+               background-color:white;
+               box-shadow: 7px 2px 7px 5px rgba(0, 0, 0, 0.45); // need mixin
                > li {
                   display: block;
                   > a {
-                     padding: 0 30px;
                      color: $link-gray;
+                     background: white;
                      &:hover {
                         background-color: $menu_bg-hilite;
                      }
@@ -166,6 +166,22 @@
    .mobile-menu-button {
       top: .3rem;
    }
+   ul.sub-menu:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 26px;
+    height: 25px;
+    top: -13px;
+    left: 5px;
+    background: white;
+    transform: rotateZ(45deg);
+    box-shadow: 3px -8px 7px 1px rgba(0, 0, 0, 0.45);
+  }
+
+  li > .sub-menu li a {
+    padding: 7px 15px;
+  }
 }
 @include media-breakpoint-up(lg) {
 }
