@@ -370,3 +370,10 @@ footer {
 
 .container-small, .container-large {
   max-width: 100%; }
+
+.input-group-lg .form-control {
+  padding: 1.2rem; }
+
+.input-group-lg > .input-group-btn > .btn {
+  padding: 1.0rem 2.0rem;
+  letter-spacing: 3px; }

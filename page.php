@@ -9,7 +9,9 @@
 				?>
 
 					<article class="post">
-						<h1 class="title"><?php the_title(); // Display the title of the page ?></h1>
+						<h1 class="title">
+							<?php the_title(); // Display the title of the page ?>
+						</h1>
 
 						<div class="the-content">
 							<?php the_content();
